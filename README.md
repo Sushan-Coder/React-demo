@@ -2,4 +2,4 @@
 This is a new repository for my ReactJS
 <br><br>
 
-Author: Sushan Adhikari
+Author: Sushan Adhikari (Student)
