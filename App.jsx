@@ -1,5 +1,17 @@
 import React from "react";
+const Article = ()=>{
+  return(
+    <div>
+      <h2>Bank Heist</h2>
+      <p>A local bank was hit by the unidentified Suspects.</p>
+    </div>
+  );
+};
 const App = ()=>{
-    return <h1>Welcome to my React App!</h1>;
-}
-export default APP;
+  return (
+    <div>
+      <h1>Independent News</h1>
+    </div>
+  );
+};
+export default App;
