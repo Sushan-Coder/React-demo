@@ -3,14 +3,16 @@ const Article = ()=>{
   return(
     <div>
       <h2>Bank Heist</h2>
-      <p>A local bank was hit by the unidentified Suspects.</p>
+      <p>A local bank was hit by unidentified suspects.</p>
     </div>
+
   );
 };
 const App = ()=>{
-  return (
+  return(
     <div>
       <h1>Independent News</h1>
+      <Article/>
     </div>
   );
 };
