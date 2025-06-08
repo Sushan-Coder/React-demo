@@ -1,6 +1,6 @@
 import React from "react";
-const name = "Alice";
+const score = 15;
 const App = ()=>{
-  return (<h1>Hello, {name}</h1>);
+return (<h1>{score * 10}</h1>);
 };
 export default App;
