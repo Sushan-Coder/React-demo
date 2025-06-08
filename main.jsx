@@ -1,17 +1,5 @@
 import React from "react";
-const Article = ()=>{
-  return(
-    <div>
-      <h2>Bank Heist</h2>
-      <p>A local bank was hit by the unidentified Suspects.</p>
-    </div>
-  );
-};
-const App = ()=>{
-  return (
-    <div>
-      <h1>Independent News</h1>
-    </div>
-  );
-};
-export default App;
+import {createRoot} from "react-dom/client";
+import App from "./App";
+createRoot(document.getElementById("root")).render(<App/>);
+
