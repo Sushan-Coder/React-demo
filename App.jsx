@@ -1,6 +1,11 @@
 import React from "react";
-const score = 15;
+import Greeting from "./Greeting";
 const App = ()=>{
-return (<h1>{score * 10}</h1>);
+    return(
+        <div>
+            <img src = "https://mimo.app/i/earth.png"/>
+            <Greeting name = "Adam"/>
+        </div>
+    );
 };
 export default App;
